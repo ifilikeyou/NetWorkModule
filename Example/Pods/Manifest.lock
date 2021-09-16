@@ -1,0 +1,29 @@
+PODS:
+  - Alamofire (5.4.3)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - NetworkModule (0.1.0):
+    - Moya (~> 14.0)
+
+DEPENDENCIES:
+  - NetworkModule (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+
+EXTERNAL SOURCES:
+  NetworkModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  NetworkModule: 705c1d6e38b0c642acfa15dc9b4a200c1d6534c2
+
+PODFILE CHECKSUM: 5f902c8cd908c89e221f7a234e8af4bd8b282d48
+
+COCOAPODS: 1.10.2

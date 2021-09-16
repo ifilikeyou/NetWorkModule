@@ -1,0 +1,45 @@
+{
+  "name": "NetworkModule",
+  "version": "0.1.0",
+  "summary": "A short description of NetworkModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ifilikeyou/NetworkModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ifilikeyou": "15801635316@163.com"
+  },
+  "source": {
+    "git": "https://github.com/ifilikeyou/NetworkModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "swift_versions": [
+    "5.0"
+  ],
+  "public_header_files": "Pod/Classes/**/*.h",
+  "source_files": [
+    "NetWorkModule/Classes/**/*",
+    "NetWorkModule/Libs/include"
+  ],
+  "ios": {
+    "vendored_libraries": "NetWorkModule/Libs/lib/*.{a}",
+    "vendored_frameworks": "NetWorkModule/Frameworks/*.{framework}"
+  },
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC",
+    "USER_HEADER_SEARCH_PATHS": "NetWorkModule/Libs/include",
+    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/../../NetWorkModule/Frameworks/Libs/include\""
+  },
+  "dependencies": {
+    "Moya": [
+      "~> 14.0"
+    ]
+  },
+  "swift_version": "5.0"
+}
