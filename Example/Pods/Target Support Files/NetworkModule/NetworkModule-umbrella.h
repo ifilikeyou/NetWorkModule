@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NetworkSpeedOC.h"
 
 FOUNDATION_EXPORT double NetworkModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char NetworkModuleVersionString[];

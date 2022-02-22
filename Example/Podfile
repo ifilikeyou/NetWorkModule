@@ -1,4 +1,6 @@
 use_frameworks!
+##忽略.cocoapods中多个specs源引起的警告问题
+install! 'cocoapods', :warn_for_unused_master_specs_repo => false
 
 platform :ios, '10.0'
 

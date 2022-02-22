@@ -1,11 +1,24 @@
 PODS:
-  - Alamofire (5.4.3)
-  - Moya (14.0.0):
-    - Moya/Core (= 14.0.0)
-  - Moya/Core (14.0.0):
+  - Alamofire (5.4.4)
+  - CryptoSwift (1.4.2)
+  - Kingfisher (6.3.1)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
   - NetworkModule (0.1.0):
-    - Moya (~> 14.0)
+    - Alamofire (~> 5.4.4)
+    - CryptoSwift (~> 1.4.2)
+    - Kingfisher (~> 6.3.1)
+    - Moya (~> 15.0.0)
+    - Reusable (~> 4.1.2)
+    - SnapKit (~> 5.0.1)
+  - Reusable (4.1.2):
+    - Reusable/Storyboard (= 4.1.2)
+    - Reusable/View (= 4.1.2)
+  - Reusable/Storyboard (4.1.2)
+  - Reusable/View (4.1.2)
+  - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - NetworkModule (from `../`)
@@ -13,17 +26,25 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - CryptoSwift
+    - Kingfisher
     - Moya
+    - Reusable
+    - SnapKit
 
 EXTERNAL SOURCES:
   NetworkModule:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
-  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
-  NetworkModule: 705c1d6e38b0c642acfa15dc9b4a200c1d6534c2
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  CryptoSwift: a532e74ed010f8c95f611d00b8bbae42e9fe7c17
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  NetworkModule: 287ccbd57e6e1fb28e528fb419028d27a7df5d0a
+  Reusable: 6bae6a5e8aa793c9c441db0213c863a64bce9136
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 5f902c8cd908c89e221f7a234e8af4bd8b282d48
+PODFILE CHECKSUM: 069585cdda32d88f2ba2e4bd47a1be6aeb1ad812
 
 COCOAPODS: 1.10.2

@@ -54,8 +54,17 @@ TODO: Add long description of the pod here.
   s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC','USER_HEADER_SEARCH_PATHS' => 'NetWorkModule/Libs/include','HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/../../NetWorkModule/Frameworks/Libs/include"'}
 
   
-  s.dependency 'Moya', '~> 14.0'
+  s.dependency 'Alamofire', '~> 5.4.4'
+  s.dependency 'Moya', '~> 15.0.0'
+  s.dependency 'CryptoSwift', '~> 1.4.2'
+  s.dependency 'SnapKit', '~> 5.0.1'
+  s.dependency 'Reusable', '~> 4.1.2'
+  s.dependency 'Kingfisher', '~> 6.3.1'
   
+  
+#  s.prefix_header_contents =  '#import "Masonry.h"',
+#                              '#import "SDWebImage.h"'
+
   
   
 end

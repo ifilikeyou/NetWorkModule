@@ -37,8 +37,23 @@
     "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/../../NetWorkModule/Frameworks/Libs/include\""
   },
   "dependencies": {
+    "Alamofire": [
+      "~> 5.4.4"
+    ],
     "Moya": [
-      "~> 14.0"
+      "~> 15.0.0"
+    ],
+    "CryptoSwift": [
+      "~> 1.4.2"
+    ],
+    "SnapKit": [
+      "~> 5.0.1"
+    ],
+    "Reusable": [
+      "~> 4.1.2"
+    ],
+    "Kingfisher": [
+      "~> 6.3.1"
     ]
   },
   "swift_version": "5.0"
